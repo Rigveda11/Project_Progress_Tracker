@@ -9,7 +9,7 @@
     background-color: #f4f7fa;
     color: #333;
     padding: 20px;
-    transition: background-color 0.3s ease; /* Smooth background change */
+    transition: background-color 0.3s ease; 
   }
   
   /* Page Title */
@@ -18,14 +18,14 @@
     font-size: 2.5em;
     color: #0056b3;
     margin-bottom: 20px;
-    transition: transform 0.3s ease; /* Title hover effect */
+    transition: transform 0.3s ease; 
   }
   
   h1:hover {
     transform: scale(1.05); /* Slightly enlarge title on hover */
   }
   
-  /* Form Styling */
+  
   form {
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
     max-width: 600px;
     margin: 0 auto 20px;
     opacity: 0;
-    animation: fadeIn 1s forwards; /* Fade-in effect for form */
+    animation: fadeIn 1s forwards; 
   }
   
   form input, form textarea, form button {
@@ -70,7 +70,7 @@
   
   button:hover {
     background-color: #003d80;
-    transform: scale(1.05); /* Button hover effect with scaling */
+    transform: scale(1.05); 
   }
   
   /* Table Styling */
@@ -82,7 +82,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     overflow: hidden;
-    animation: fadeIn 1s forwards; /* Fade-in effect for table */
+    animation: fadeIn 1s forwards; 
   }
   
   th, td {
@@ -105,7 +105,7 @@
   
   tr:hover {
     background-color: #f1f7ff;
-    transform: scale(1.01); /* Slight scaling on hover */
+    transform: scale(1.01); 
   }
   
   /* Progress Bar */
@@ -114,7 +114,7 @@
     background-color: #e9ecef;
     border-radius: 5px;
     overflow: hidden;
-    animation: pulse 2s infinite; /* Pulse effect */
+    animation: pulse 2s infinite; 
   }
   
   .progress {
@@ -132,7 +132,7 @@
   }
   
   h2:hover {
-    color: #003d80; /* Title color change on hover */
+    color: #003d80; 
   }
   
   #chartContainer {
@@ -153,7 +153,7 @@
   }
   
   .projectChart:hover {
-    transform: scale(1.05); /* Hover effect for chart containers */
+    transform: scale(1.05); 
   }
   
   /* Task List Styling */
@@ -164,7 +164,7 @@
   }
   
   td div:hover {
-    transform: translateX(5px); /* Slide effect for task divs */
+    transform: translateX(5px); 
   }
   
   td div input[type="checkbox"] {
@@ -186,7 +186,7 @@
   
   td .removeButton:hover {
     background-color: #b02a37;
-    transform: scale(1.1); /* Scaling effect for remove button */
+    transform: scale(1.1); 
   }
   
   /* Responsive Design */
