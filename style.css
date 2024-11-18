@@ -226,6 +226,6 @@
     }
   }
   #chartContainer {
-    height: 400px;  /* Adjust the height */
-    width: 100%;    /* Ensure it stretches properly */
+    height: 400px;  
+    width: 100%;    
   }
