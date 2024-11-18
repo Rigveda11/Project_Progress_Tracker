@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Project Progress Tracker</h1>
+
+    <!-- Form to Add New Project Data -->
+    <form id="addProjectForm">
+        <input type="text" id="projectName" placeholder="Project Name" required>
+        <input type="number" id="sprint" placeholder="Sprint" required>
+        <input type="date" id="startDate" placeholder="Start Date" required>
+        <textarea id="taskList" placeholder="Enter tasks, separated by commas" required></textarea>
+        <button type="submit" id="addProjectButton">Add Project</button>
+    </form>
+
+    <!-- Project Table -->
+    <table id="trackerTable">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Sprint</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Tasks</th>
+                <th>Progress (%)</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="trackerBody"></tbody>
+    </table>
+
+    <!-- Progress Chart Container -->
+    <h2>Progress Charts</h2>
+    <div id="chartContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
